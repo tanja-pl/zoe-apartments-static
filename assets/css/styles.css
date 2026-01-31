@@ -1,0 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.swiper-pagination-bullet-active {
+  background: #3b82f6 !important;
+  width: 24px !important;
+  border-radius: 5px !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
