@@ -68,6 +68,38 @@ const translations = {
     check_ohrid: "Check Ohrid Apartment",
     photo_gallery: "Photo Gallery",
     photos_coming_soon: "Photos coming soon",
+    guest_info_title: "Guest Information",
+    guest_info_subtitle: "Helpful details for a smooth stay at Zoe Apartments.",
+    info_no_smoking_title: "No smoking",
+    info_no_smoking_body:
+      "Smoking is not allowed inside. Please use outdoor areas and be mindful of fire safety.",
+    info_pet_friendly_title: "Pet friendly",
+    info_pet_friendly_body:
+      "Pets are welcome. Let us know in advance so we can prepare the apartment.",
+    info_prices_title: "Prices",
+    info_prices_body:
+      "Rates are in EUR and confirmed after booking and deposit.",
+    info_minors_title: "Unaccompanied minors",
+    info_minors_body: "Guests under 18 must be accompanied by an adult.",
+    info_booking_title: "How to book",
+    info_booking_body:
+      "Book online, call +389 76 542 465, or email zoeapartments.booking@gmail.com.",
+    info_booking_times: "Check-in: 14:00 · Check-out: until 10:00",
+    info_cancellation_title: "Cancellation policy",
+    info_cancellation_body:
+      "Free cancellation up to 24 hours before arrival. After that, a 10% fee of the deposit applies.",
+    info_included_title: "Included in price",
+    info_included_body:
+      "Wi-Fi, parking, towels, and bed linen.",
+    info_liability_title: "Liability",
+    info_liability_body:
+      "We are not liable for delays or disruptions caused by events beyond our control.",
+    info_deposit_title: "Deposits",
+    info_deposit_body:
+      "A deposit is required to confirm your booking. The remaining balance is paid before check-in.",
+    map_section_title: "Apartment Locations",
+    map_section_subtitle: "See all Zoe Apartments on the map.",
+    map_open: "Open in Google Maps",
   },
   mk: {
     zoe_apartments: "Зое Апартмани",
@@ -136,6 +168,37 @@ const translations = {
     check_ohrid: "Погледни го апартманот во Охрид",
     photo_gallery: "Галерија",
     photos_coming_soon: "Слики ќе бидат додадени наскоро",
+    guest_info_title: "Информации за гости",
+    guest_info_subtitle: "Корисни детали за пријатен престој во Zoe Apartments.",
+    info_no_smoking_title: "Забрането пушење",
+    info_no_smoking_body:
+      "Пушење не е дозволено внатре. Ве молиме користете надворешни простори.",
+    info_pet_friendly_title: "Pet friendly",
+    info_pet_friendly_body:
+      "Домашните миленици се добредојдени. Ве молиме најавете однапред.",
+    info_prices_title: "Цени",
+    info_prices_body: "Цените се во EUR и се потврдуваат по резервација.",
+    info_minors_title: "Непридружени малолетници",
+    info_minors_body: "Гостите под 18 години мора да бидат со возрасен.",
+    info_booking_title: "Како да резервирате",
+    info_booking_body:
+      "Резервирајте онлајн, јавете се на +389 76 542 465, или пишете на zoeapartments.booking@gmail.com.",
+    info_booking_times: "Влез: 14:00 · Излез: до 10:00",
+    info_cancellation_title: "Политика за откажување",
+    info_cancellation_body:
+      "Бесплатно откажување до 24 часа пред пристигнување. Потоа се наплаќа 10% од депозитот.",
+    info_included_title: "Вклучено во цената",
+    info_included_body:
+      "Wi-Fi, паркинг, пешкири и постелнина.",
+    info_liability_title: "Одговорност",
+    info_liability_body:
+      "Не одговараме за доцнења или прекини предизвикани од настани надвор од наша контрола.",
+    info_deposit_title: "Депозит",
+    info_deposit_body:
+      "Потребен е депозит за потврда. Остатокот се плаќа пред check-in.",
+    map_section_title: "Локации на апартманите",
+    map_section_subtitle: "Погледнете ги сите Zoe Apartments на мапата.",
+    map_open: "Отвори на Google Maps",
   },
   sr: {
     zoe_apartments: "Zoe Apartmani",
@@ -203,6 +266,38 @@ const translations = {
     check_ohrid: "Pogledaj apartman u Ohridu",
     photo_gallery: "Galerija fotografija",
     photos_coming_soon: "Fotografije uskoro",
+    guest_info_title: "Informacije za goste",
+    guest_info_subtitle: "Korisni detalji za prijatan boravak u Zoe Apartments.",
+    info_no_smoking_title: "Zabranjeno pušenje",
+    info_no_smoking_body:
+      "Pušenje nije dozvoljeno unutra. Koristite spoljne prostore.",
+    info_pet_friendly_title: "Pet friendly",
+    info_pet_friendly_body:
+      "Kućni ljubimci su dobrodošli. Najavite dolazak unapred.",
+    info_prices_title: "Cene",
+    info_prices_body:
+      "Cene su u EUR i potvrđuju se nakon rezervacije i depozita.",
+    info_minors_title: "Maloletnici bez pratnje",
+    info_minors_body: "Gosti mlađi od 18 godina moraju biti sa odraslom osobom.",
+    info_booking_title: "Kako rezervisati",
+    info_booking_body:
+      "Rezervišite online, pozovite +389 76 542 465, ili pišite na zoeapartments.booking@gmail.com.",
+    info_booking_times: "Ulaz: 14:00 · Izlaz: do 10:00",
+    info_cancellation_title: "Politika otkazivanja",
+    info_cancellation_body:
+      "Besplatno otkazivanje do 24 sata pre dolaska. Nakon toga, naplaćuje se 10% depozita.",
+    info_included_title: "Uključeno u cenu",
+    info_included_body:
+      "Wi-Fi, parking, peškiri i posteljina.",
+    info_liability_title: "Odgovornost",
+    info_liability_body:
+      "Ne snosimo odgovornost za kašnjenja ili prekide izazvane događajima van naše kontrole.",
+    info_deposit_title: "Depozit",
+    info_deposit_body:
+      "Depozit je potreban za potvrdu. Preostali iznos se plaća pre check-in-a.",
+    map_section_title: "Lokacije apartmana",
+    map_section_subtitle: "Pogledajte sve Zoe Apartments na mapi.",
+    map_open: "Otvori u Google Maps",
   },
   el: {
     zoe_apartments: "Ζοε Αποταμιευτήρια",
@@ -272,6 +367,39 @@ const translations = {
     check_ohrid: "Δείτε το διαμέρισμα στην Οχρίδα",
     photo_gallery: "Γκαλερί φωτογραφιών",
     photos_coming_soon: "Οι φωτογραφίες θα προστεθούν σύντομα",
+    guest_info_title: "Πληροφορίες για επισκέπτες",
+    guest_info_subtitle:
+      "Χρήσιμες λεπτομέρειες για μια άνετη διαμονή στο Zoe Apartments.",
+    info_no_smoking_title: "Απαγορεύεται το κάπνισμα",
+    info_no_smoking_body:
+      "Το κάπνισμα δεν επιτρέπεται μέσα. Χρησιμοποιήστε τους εξωτερικούς χώρους.",
+    info_pet_friendly_title: "Pet friendly",
+    info_pet_friendly_body:
+      "Τα κατοικίδια είναι ευπρόσδεκτα. Ενημερώστε μας εκ των προτέρων.",
+    info_prices_title: "Τιμές",
+    info_prices_body:
+      "Οι τιμές είναι σε EUR και επιβεβαιώνονται μετά την κράτηση και την προκαταβολή.",
+    info_minors_title: "Ασυνόδευτοι ανήλικοι",
+    info_minors_body: "Επισκέπτες κάτω των 18 πρέπει να συνοδεύονται από ενήλικα.",
+    info_booking_title: "Πώς να κάνετε κράτηση",
+    info_booking_body:
+      "Κάντε κράτηση online, καλέστε +389 76 542 465, ή στείλτε email στο zoeapartments.booking@gmail.com.",
+    info_booking_times: "Check-in: 14:00 · Check-out: έως 10:00",
+    info_cancellation_title: "Πολιτική ακύρωσης",
+    info_cancellation_body:
+      "Δωρεάν ακύρωση έως 24 ώρες πριν την άφιξη. Μετά, χρεώνεται 10% της προκαταβολής.",
+    info_included_title: "Περιλαμβάνεται στην τιμή",
+    info_included_body:
+      "Wi-Fi, πάρκινγκ, πετσέτες και λευκά είδη.",
+    info_liability_title: "Ευθύνη",
+    info_liability_body:
+      "Δεν φέρουμε ευθύνη για καθυστερήσεις ή διακοπές λόγω γεγονότων εκτός ελέγχου μας.",
+    info_deposit_title: "Προκαταβολή",
+    info_deposit_body:
+      "Απαιτείται προκαταβολή για επιβεβαίωση. Το υπόλοιπο πληρώνεται πριν το check-in.",
+    map_section_title: "Τοποθεσίες διαμερισμάτων",
+    map_section_subtitle: "Δείτε όλα τα Zoe Apartments στον χάρτη.",
+    map_open: "Άνοιγμα στο Google Maps",
   },
 };
 
@@ -337,6 +465,33 @@ const APARTMENTS = {
   },
 };
 
+const MAP_LOCATIONS = [
+  {
+    id: 1,
+    nameKey: "apartment_name_polychrono",
+    lat: 40.0184516,
+    lng: 23.5252944,
+    mapUrl:
+      "https://www.google.com/maps/dir//40.0184516,23.5252944/@40.0185029,23.5259834,187m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDYyMi4wIKXMDSoASAFQAw%3D%3D",
+  },
+  {
+    id: 2,
+    nameKey: "apartment_name_flogita",
+    lat: 40.2579665,
+    lng: 23.2157239,
+    mapUrl:
+      "https://www.google.com/maps/dir//40.2579665,23.2157239/@40.2579528,23.215694,200m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDYyMi4wIKXMDSoASAFQAw%3D%3D",
+  },
+  {
+    id: 3,
+    nameKey: "apartment_name_ohrid",
+    lat: 41.1177006,
+    lng: 20.803087,
+    mapUrl:
+      "https://www.google.com/maps/dir//41.1177006,20.803087/@41.1170882,20.8024202,201m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDYyMi4wIKXMDSoASAFQAw%3D%3D",
+  },
+];
+
 const PLACEHOLDER_IMAGE =
   "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%221200%22%20height%3D%22800%22%20viewBox%3D%220%200%201200%20800%22%3E%3Crect%20width%3D%221200%22%20height%3D%22800%22%20fill%3D%22%23111827%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22%239CA3AF%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2236%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EImage%20coming%20soon%3C/text%3E%3C/svg%3E";
 
@@ -347,6 +502,7 @@ applyI18n();
 wireLanguageSwitcher();
 wireNavLinks();
 wireApartmentLinks();
+wireMapLinks();
 applyFallbackImages();
 initPage();
 
@@ -430,6 +586,7 @@ function initPage() {
   const page = document.body.dataset.page;
   if (page === "home") {
     initHomeSlider();
+    initHomeMap();
   }
   if (page === "apartment") {
     renderApartment();
@@ -437,6 +594,16 @@ function initPage() {
   if (page === "contact") {
     wireContactForm();
   }
+}
+
+function wireMapLinks() {
+  document.querySelectorAll("[data-map-link]").forEach((el) => {
+    const id = Number(el.dataset.mapLink);
+    const entry = MAP_LOCATIONS.find((item) => item.id === id);
+    if (entry) {
+      el.setAttribute("href", entry.mapUrl);
+    }
+  });
 }
 
 function initHomeSlider() {
@@ -463,6 +630,33 @@ function initHomeSlider() {
       prevEl: ".swiper-button-prev",
     },
   });
+}
+
+function initHomeMap() {
+  if (typeof L === "undefined") {
+    return;
+  }
+  const container = document.getElementById("apartments-map");
+  if (!container) {
+    return;
+  }
+
+  const map = L.map(container, { scrollWheelZoom: false });
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution:
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  }).addTo(map);
+
+  const bounds = [];
+  MAP_LOCATIONS.forEach((location) => {
+    const marker = L.marker([location.lat, location.lng]).addTo(map);
+    marker.bindPopup(t(location.nameKey));
+    bounds.push([location.lat, location.lng]);
+  });
+
+  if (bounds.length) {
+    map.fitBounds(bounds, { padding: [40, 40] });
+  }
 }
 
 function renderApartment() {

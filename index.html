@@ -28,6 +28,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
   </head>
   <body class="bg-gray-100 font-sans" data-page="home">
     <nav class="bg-white py-4 shadow-sm sticky top-0 z-50">
@@ -296,6 +302,173 @@
       </div>
     </div>
 
+    <section class="bg-white py-16">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="text-center mb-12">
+          <h2
+            class="text-3xl md:text-4xl font-bold text-gray-800"
+            data-i18n="guest_info_title"
+          ></h2>
+          <p class="text-gray-500 mt-3" data-i18n="guest_info_subtitle"></p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div
+            class="bg-gray-50 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"
+          >
+            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-100 text-blue-600 text-2xl">
+              🚭
+            </div>
+            <h3
+              class="text-xl font-semibold text-gray-800 mt-4"
+              data-i18n="info_no_smoking_title"
+            ></h3>
+            <p class="text-gray-600 mt-2" data-i18n="info_no_smoking_body"></p>
+          </div>
+
+          <div
+            class="bg-gray-50 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"
+          >
+            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-100 text-blue-600 text-2xl">
+              💶
+            </div>
+            <h3
+              class="text-xl font-semibold text-gray-800 mt-4"
+              data-i18n="info_prices_title"
+            ></h3>
+            <p class="text-gray-600 mt-2" data-i18n="info_prices_body"></p>
+          </div>
+
+          <div
+            class="bg-gray-50 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"
+          >
+            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-100 text-blue-600 text-2xl">
+              👨‍👩‍👧
+            </div>
+            <h3
+              class="text-xl font-semibold text-gray-800 mt-4"
+              data-i18n="info_minors_title"
+            ></h3>
+            <p class="text-gray-600 mt-2" data-i18n="info_minors_body"></p>
+          </div>
+
+          <div
+            class="bg-gray-50 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"
+          >
+            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-100 text-blue-600 text-2xl">
+              📅
+            </div>
+            <h3
+              class="text-xl font-semibold text-gray-800 mt-4"
+              data-i18n="info_booking_title"
+            ></h3>
+            <p class="text-gray-600 mt-2" data-i18n="info_booking_body"></p>
+            <p class="text-gray-600 mt-2" data-i18n="info_booking_times"></p>
+          </div>
+          <div
+            class="bg-gray-50 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"
+          >
+            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-100 text-blue-600 text-2xl">
+              🧺
+            </div>
+            <h3
+              class="text-xl font-semibold text-gray-800 mt-4"
+              data-i18n="info_included_title"
+            ></h3>
+            <p class="text-gray-600 mt-2" data-i18n="info_included_body"></p>
+          </div>
+
+          <div
+            class="bg-gray-50 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"
+          >
+            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-100 text-blue-600 text-2xl">
+              🛟
+            </div>
+            <h3
+              class="text-xl font-semibold text-gray-800 mt-4"
+              data-i18n="info_liability_title"
+            ></h3>
+            <p class="text-gray-600 mt-2" data-i18n="info_liability_body"></p>
+          </div>
+
+          <div
+            class="bg-gray-50 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"
+          >
+            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-100 text-blue-600 text-2xl">
+              💳
+            </div>
+            <h3
+              class="text-xl font-semibold text-gray-800 mt-4"
+              data-i18n="info_deposit_title"
+            ></h3>
+            <p class="text-gray-600 mt-2" data-i18n="info_deposit_body"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white py-16">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="text-center mb-12">
+          <h2
+            class="text-3xl md:text-4xl font-bold text-gray-800"
+            data-i18n="map_section_title"
+          ></h2>
+          <p class="text-gray-500 mt-3" data-i18n="map_section_subtitle"></p>
+        </div>
+
+        <div
+          id="apartments-map"
+          class="w-full h-[420px] rounded-3xl shadow-md overflow-hidden"
+        ></div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+          <div class="bg-gray-50 rounded-2xl p-6 shadow-sm">
+            <h3
+              class="text-lg font-semibold text-gray-800"
+              data-i18n="apartment_name_polychrono"
+            ></h3>
+            <a
+              href="#"
+              data-map-link="1"
+              class="text-blue-600 font-semibold mt-2 inline-block hover:underline"
+              data-i18n="map_open"
+              target="_blank"
+              rel="noopener"
+            ></a>
+          </div>
+          <div class="bg-gray-50 rounded-2xl p-6 shadow-sm">
+            <h3
+              class="text-lg font-semibold text-gray-800"
+              data-i18n="apartment_name_flogita"
+            ></h3>
+            <a
+              href="#"
+              data-map-link="2"
+              class="text-blue-600 font-semibold mt-2 inline-block hover:underline"
+              data-i18n="map_open"
+              target="_blank"
+              rel="noopener"
+            ></a>
+          </div>
+          <div class="bg-gray-50 rounded-2xl p-6 shadow-sm">
+            <h3
+              class="text-lg font-semibold text-gray-800"
+              data-i18n="apartment_name_ohrid"
+            ></h3>
+            <a
+              href="#"
+              data-map-link="3"
+              class="text-blue-600 font-semibold mt-2 inline-block hover:underline"
+              data-i18n="map_open"
+              target="_blank"
+              rel="noopener"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer class="bg-[#1f2937] text-gray-300 py-10 px-8 mt-12">
       <div
         class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center"
@@ -342,6 +515,11 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
     <script src="assets/js/site.js"></script>
   </body>
 </html>
