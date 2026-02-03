@@ -458,8 +458,13 @@ const APARTMENTS = {
     priceKey: "apartment_price_ohrid",
     bedKey: "amenity_beds_flogita",
     wifiStarlink: false,
-    heroImage: "images/ohrid/ohrid.jpg",
-    galleryImages: [],
+    heroImage: "images/ohrid/ohrid1.jpg",
+    galleryImages: [
+      "images/ohrid/ohrid1.jpg",
+      "images/ohrid/ohrid2.jpg",
+      "images/ohrid/ohrid3.jpg",
+      "images/ohrid/ohrid4.jpg",
+    ],
     mapUrl:
       "https://www.google.com/maps/dir//41.1177006,20.803087/@41.1170882,20.8024202,201m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDYyMi4wIKXMDSoASAFQAw%3D%3D",
   },
