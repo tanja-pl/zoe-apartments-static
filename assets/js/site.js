@@ -447,7 +447,7 @@ const APARTMENTS = {
       "images/flogita/flogita6.jpg",
       "images/flogita/flogita7.jpg",
       "images/flogita/flogita8.jpg",
-      "images/flogita/flogita11.jpg",
+      "images/flogita/flogita11.JPG",
       "images/flogita/flogita12.jpg",
     ],
     mapUrl:
