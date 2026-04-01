@@ -447,6 +447,8 @@ const APARTMENTS = {
       "images/flogita/flogita6.jpg",
       "images/flogita/flogita7.jpg",
       "images/flogita/flogita8.jpg",
+      "images/flogita/flogita11.jpg",
+      "images/flogita/flogita12.jpg",
     ],
     mapUrl:
       "https://www.google.com/maps/dir//40.2579665,23.2157239/@40.2579528,23.215694,200m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDYyMi4wIKXMDSoASAFQAw%3D%3D",
