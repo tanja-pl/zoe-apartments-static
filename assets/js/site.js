@@ -15,11 +15,14 @@ const translations = {
       "Everything you need for a perfect vacation",
     apartment_name_polychrono: "Polychrono Apartment",
     apartment_name_flogita: "Flogita Apartment",
+    apartment_name_kalitea: "Kalitea Apartment",
     apartment_name_ohrid: "Ohrid Apartment",
     apartment_description_polychrono:
       "Modern apartment, Prime beach location and private parking.",
     apartment_description_flogita:
       "Modern apartment in the heart of the city and 50m from the beach.",
+    apartment_description_kalitea:
+      "Modern apartment, central location and pool in the garden.",
     apartment_description_ohrid: "Apartment in the heart of the city",
     view_details: "View Details",
     contact_intro: "Get in touch with us!",
@@ -39,6 +42,10 @@ const translations = {
       "Welcome to Zoe Apartment Flogita. Situated just 50 meters from the sea, in the heart of Flogita, this brand new apartment (built in 2025) provides contemporary comfort and sophisticated style. The apartment is elegantly furnished and includes a living room with a sofa bed, a fully equipped kitchen with a counter, a separate bedroom, a modern bathroom, a terrace, a TV with all channels, and ultra-fast Starlink internet. A perfect choice for guests seeking a comfortable, elegant, and relaxed vacation, just steps from the beach and all city amenities.",
     description_flogita_second:
       "Enjoy your morning coffee on the private balcony, or unwind in the evening with a glass of wine. Zoe Apartment is the ideal spot for couples or small families looking to experience the best of summer.",
+    description_kalitea:
+      "Welcome to Zoe Apartment Kalitea. This comfortable holiday home accommodates up to 4 guests and features a leaving room, fully equipped kitchen, a separate bedroom, and a private bathroom. Relax in the garden swimming pool, enjoy two terraces, and park your car directly in front of the apartment. Located just 500 metres from the sea in the centre of Kalitea, you are within easy reach of shops, and restaurants.",
+    description_kalitea_second:
+      "An ideal choice for families or friends who want space, outdoor living, and a central coastal location in Halkidiki.",
     description_ohrid:
       "Enjoy a comfortable and relaxing stay in this fully equipped 50 m² apartment, perfectly located in the center of Ohrid. Everything you need is just steps away—restaurants, cafés, shops, and the beautiful lake. The apartment features a modern living room with a fully equipped kitchen, a cozy bedroom, a clean and functional bathroom, and a private terrace where you can unwind and enjoy your coffee. Private parking is included, making your stay stress-free.",
     description_ohrid_second:
@@ -48,6 +55,7 @@ const translations = {
       "1 Large Double Bed, 2 Sofa Beds (that can be joined together)",
     amenity_beds_flogita:
       "1 Large Double Bed, 1 Sofa Bed (that can be made as a double bed)",
+    amenity_beds_kalitea: "Sleeps up to 4 guests",
     amenity_kitchen: "Kitchen",
     amenity_bathroom: "Private Bathroom",
     amenity_air_conditioning: "Air Conditioning",
@@ -59,12 +67,14 @@ const translations = {
     apartment: "Apartment",
     apartment_price_polychrono: "From 70€",
     apartment_price_flogita: "From 70€",
+    apartment_price_kalitea: "From 70€",
     apartment_price_ohrid: "From 50€",
     minimum_stay: "Minimum stay 7 nights",
     go_to_contact_me: "Go to Contact Us",
     map: "Map",
     check_polychrono: "Check Polychrono Apartment",
     check_flogita: "Check Flogita Apartment",
+    check_kalitea: "Check Kalitea Apartment",
     check_ohrid: "Check Ohrid Apartment",
     photo_gallery: "Photo Gallery",
     photos_coming_soon: "Photos coming soon",
@@ -115,11 +125,14 @@ const translations = {
       "Она што ви треба за совршен летен престој",
     apartment_name_polychrono: "Апартман Полихроно",
     apartment_name_flogita: "Апартман Флогита",
+    apartment_name_kalitea: "Апартман Калитеа",
     apartment_name_ohrid: "Апартман Охрид",
     apartment_description_polychrono:
       "Модерен апартман, одлична локација на плажа и приватен паркинг.",
     apartment_description_flogita:
       "Модерен апартман во срцето на градот на само 50м од плажата.",
+    apartment_description_kalitea:
+      "Модерен апартман, централна локација и базен во дворот.",
     apartment_description_ohrid: "Апартман во срцето на градот.",
     view_details: "Види детали",
     contact_intro: "Стапете во контакт со нас!",
@@ -139,6 +152,10 @@ const translations = {
       "Добредојдовте во Зое Апартман Флогита. Сместен на само 50 метри од морето, во самиот центар на Флогита, овој целосно нов апартман (градба 2025) пружа модерен комфор и софистициран стил. Апартманот е современо опремен и содржи дневна соба со софа-кревет, комплетно опремена кујна со шанк, одвоена спална соба, модерна бања, тераса, телевизор со сите канали и ултра брз Starlink интернет. Совршен избор за гости кои бараат удобен, елегантен и опуштен одмор, на чекор од плажа и сите градски содржини.",
     description_flogita_second:
       "Уживајте во вашето утринско кафе на приватниот балкон или опуштете се во вечерните часови со чаша вино. Zoe Apartment е идеално место за парови или мали семејства кои сакаат да го доживеат најдоброто од летото.",
+    description_kalitea:
+      "Добредојдовте во Зое Апартман Калитеа. Овој модерен апартман нуди модерен комфор и елегантен стил. Апартманот е современо опремен и содржи дневна соба со софа-кревет, комплетно опремена кујна со шанк, одвоена спална соба, модерна бања, тераса, телевизор со сите канали и брз интернет. Совршен избор за гости кои бараат удобен, елегантен и опуштен одмор, на чекор од плажа и сите градски содржини.",
+    description_kalitea_second:
+      "Идеален избор за семејства или пријатели кои сакаат простор, надворешен живот и централна приморска локација во Халкидики.",
     description_ohrid:
       "Уживајте во удобен и релаксирачки престој во овој целосно опремен апартман од 50 м², совршено лоциран во центарот на Охрид. Се што ви треба е на неколку чекори — ресторани, кафулиња, продавници и прекрасното езеро. Апартманот располага со модерен дневен престој со целосно опремена кујна, удобна спална соба, функционална бања и приватна тераса каде можете да се опуштите со кафе. Приватниот паркинг е вклучен, што го прави престојот безгрижен.",
     description_ohrid_second:
@@ -148,6 +165,7 @@ const translations = {
       "1 голем брачен кревет, 2 софи (кои можат да се спојат)",
     amenity_beds_flogita:
       "1 голем брачен кревет, 1 софа (која може да се направи како брачен кревет)",
+    amenity_beds_kalitea: "До 4 гости",
     amenity_kitchen: "Кујна",
     amenity_bathroom: "Приватна бања",
     amenity_air_conditioning: "Клима уред",
@@ -159,12 +177,14 @@ const translations = {
     apartment: "Апартман",
     apartment_price_polychrono: "Од 70€",
     apartment_price_flogita: "Од 70€",
+    apartment_price_kalitea: "Од 70€",
     apartment_price_ohrid: "Од 50€",
     minimum_stay: "Минимум 7 ноќи",
     go_to_contact_me: "Контактирајте нè",
     map: "Мапа",
     check_polychrono: "Погледни го апартманот во Полихроно",
     check_flogita: "Погледни го апартманот во Флогита",
+    check_kalitea: "Погледни го апартманот во Калитеа",
     check_ohrid: "Погледни го апартманот во Охрид",
     photo_gallery: "Галерија",
     photos_coming_soon: "Слики ќе бидат додадени наскоро",
@@ -213,11 +233,14 @@ const translations = {
       "Sve što vi trebate za savršen letnji boravak",
     apartment_name_polychrono: "Apartman Polihrono",
     apartment_name_flogita: "Apartman Flogita",
+    apartment_name_kalitea: "Apartman Kalitea",
     apartment_name_ohrid: "Apartman Ohrid",
     apartment_description_polychrono:
       "Moderan apartman, odlična lokacija na plaži i privatni parking.",
     apartment_description_flogita:
       "Moderan apartman u srcu grada, na 50m od plaže.",
+    apartment_description_kalitea:
+      "Moderan apartman, centralna lokacija i bazen u dvorištu.",
     apartment_description_ohrid: "Apartman u srcu grada.",
     view_details: "Vidi detalje",
     contact_intro: "Stupite u kontakt sa nama!",
@@ -237,6 +260,10 @@ const translations = {
       "Dobrodošli u Zoe Apartman Flogita. Smješten na samo 50 metara od mora, u samom centru Flogite, ovaj potpuno novi apartman (izgrađen 2025) pruža moderan komfor i sofisticiran stil. Apartman je savremeno opremljen i sadrži dnevni boravak sa sofom-krevetom, potpuno opremljenu kuhinju sa šankom, odvojenu spavaću sobu, moderno kupatilo, terasu, televizor sa svim kanalima i ultra brzi Starlink internet. Savršen izbor za goste koji traže udoban, elegantan i opušten odmor, na korak od plaže i svih gradskih sadržaja.",
     description_flogita_second:
       "Uživajte u jutarnjoj kafi na privatnom balkonu, ili se opustite uveče uz čašu vina. Zoe Apartment je idealno mesto za parove ili male porodice koje žele da dožive najbolje od leta.",
+    description_kalitea:
+      "Dobrodošli u Zoe Apartman Kalitea. Ovaj moderan apartman nudi savremeni komfor i elegantan stil. Apartman je moderno opremljen i sadrži dnevnu sobu sa sofom na razvlačenje, potpuno opremljenu kuhinju sa šankom, odvojenu spavaću sobu, modernu kupatilo, terasu, televizor sa svim kanalima i brzi internet. Savršen je izbor za goste koji traže udoban, elegantan i opuštajući odmor, na korak od plaže i svih gradskih sadržaja",
+    description_kalitea_second:
+      "Idealno za porodice ili prijatelje koji žele prostor, boravak na otvorenom i centralnu primorsku lokaciju na Halkidikiju.",
     description_ohrid:
       "Uživajte u udobnom i opuštajućem boravku u potpuno opremljenom apartmanu od 50 m², savršeno smeštenom u centru Ohrida. Sve što vam je potrebno nalazi se na nekoliko koraka — restorani, kafići, prodavnice i prelepo jezero. Apartman ima moderan dnevni boravak sa potpuno opremljenom kuhinjom, udobnu spavaću sobu, funkcionalno kupatilo i privatnu terasu gde možete da se opustite uz kafu. Privatni parking je uključen, što boravak čini bezbrižnim.",
     description_ohrid_second:
@@ -246,6 +273,7 @@ const translations = {
       "1 veliki bračni krevet, 2 sofe (koje se mogu spojiti)",
     amenity_beds_flogita:
       "1 veliki bračni krevet, 1 sofa (koja se može napraviti kao bračni krevet)",
+    amenity_beds_kalitea: "Do 4 gosta",
     amenity_kitchen: "Kuhinja",
     amenity_bathroom: "Privatno kupatilo",
     amenity_air_conditioning: "Klima uređaj",
@@ -257,12 +285,14 @@ const translations = {
     apartment: "Apartman",
     apartment_price_polychrono: "Od 70€",
     apartment_price_flogita: "Od 70€",
+    apartment_price_kalitea: "Od 70€",
     apartment_price_ohrid: "Od 50€",
     minimum_stay: "Minimum 7 noći",
     go_to_contact_me: "Kontaktirajte nas",
     map: "Mapa",
     check_polychrono: "Pogledaj apartman u Polihronu",
     check_flogita: "Pogledaj apartman u Flogiti",
+    check_kalitea: "Pogledaj apartman u Kalitei",
     check_ohrid: "Pogledaj apartman u Ohridu",
     photo_gallery: "Galerija fotografija",
     photos_coming_soon: "Fotografije uskoro",
@@ -314,11 +344,14 @@ const translations = {
       "Οτιδήποτε χρειάζεστε για μια τέλεια διακοπή",
     apartment_name_polychrono: "Διαμέρισμα Πολύχρονο",
     apartment_name_flogita: "Διαμέρισμα Φλογητά",
+    apartment_name_kalitea: "Διαμέρισμα Καλλιθέα",
     apartment_name_ohrid: "Διαμέρισμα Οχρίδα",
     apartment_description_polychrono:
       "Μοντέρνο διαμέρισμα, εξαιρετική τοποθεσία δίπλα στην παραλία και ιδιωτικό πάρκινγκ.",
     apartment_description_flogita:
       "Μοντέρνο διαμέρισμα στην καρδιά της πόλης και 50μ από την παραλία.",
+    apartment_description_kalitea:
+      "Μοντέρνο διαμέρισμα, κεντρική τοποθεσία και πισίνα στον κήπο.",
     apartment_description_ohrid: "Διαμέρισμα στην καρδιά της πόλης.",
     view_details: "Προβολή λεπτομερειών",
     contact_intro: "Ελάτε σε επαφή μαζί μας!",
@@ -338,6 +371,10 @@ const translations = {
       "Καλώς ήρθατε στο Zoe Διαμέρισμα Φλογητά. Βρίσκεται σε απόσταση μόλις 50 μέτρων από τη θάλασσα, στην καρδιά των Φλογητών, αυτό το εντελώς νέο διαμέρισμα (κατασκευή 2025) παρέχει σύγχρονη άνεση και εκλεπτυσμένο στυλ. Το διαμέρισμα είναι κομψά διακοσμημένο και περιλαμβάνει σαλόνι με καναπέ-κρεβάτι, πλήρως εξοπλισμένη κουζίνα με πάγκο, ξεχωριστό υπνοδωμάτιο, μοντέρνο μπάνιο, βεράντα, τηλεόραση με όλα τα κανάλια και υπερ-γρήγορο Starlink internet. Τέλεια επιλογή για επισκέπτες που αναζητούν άνετες, κομψές και χαλαρές διακοπές, βήματα από την παραλία και όλες τις αστικές ανέσεις.",
     description_flogita_second:
       "Απολαύστε τον πρωινό σας καφέ στο ιδιωτικό μπαλκόνι ή χαλαρώστε το βράδυ με ένα ποτήρι κρασί. Το Zoe Διαμέρισμα είναι το ιδανικό σημείο για ζευγάρια ή μικρές οικογένειες.",
+    description_kalitea:
+      "Καλώς ήρθατε στο Zoe Διαμέρισμα Καλλιθέα. Αυτό το άνετο εξοχικό σπίτι φιλοξενεί έως 4 επισκέπτες και διαθέτει πλήρως εξοπλισμένη κουζίνα, ξεχωριστό υπνοδωμάτιο και ιδιωτικό μπάνιο. Χαλαρώστε στην πισίνα του κήπου, απολαύστε τις δύο βεράντες και παρκάρετε μπροστά από το διαμέρισμα. Βρίσκεται μόλις 500 μέτρα από τη θάλασσα, στο κέντρο της Καλλιθέας, κοντά σε παραλίες, καταστήματα και εστιατόρια.",
+    description_kalitea_second:
+      "Ιδανική επιλογή για οικογένειες ή φίλους που θέλουν χώρο, εξωτερική ζωή και κεντρική παραθαλάσσια τοποθεσία στη Χαλκιδική.",
     description_ohrid:
       "Απολαύστε μια άνετη και χαλαρωτική διαμονή σε αυτό το πλήρως εξοπλισμένο διαμέρισμα 50 m², που βρίσκεται στο κέντρο της Οχρίδας. Ό,τι χρειάζεστε είναι λίγα βήματα μακριά — εστιατόρια, καφέ, καταστήματα και η όμορφη λίμνη. Το διαμέρισμα διαθέτει μοντέρνο σαλόνι με πλήρως εξοπλισμένη κουζίνα, άνετο υπνοδωμάτιο, λειτουργικό μπάνιο και ιδιωτική βεράντα για να απολαύσετε τον καφέ σας. Περιλαμβάνεται ιδιωτικό πάρκινγκ, για μια ξέγνοιαστη διαμονή.",
     description_ohrid_second:
@@ -347,6 +384,7 @@ const translations = {
       "1 μεγάλο διπλό κρεβάτι, 2 καναπέδες-κρεβάτια (που μπορούν να ενωθούν)",
     amenity_beds_flogita:
       "1 μεγάλο διπλό κρεβάτι, 1 καναπές-κρεβάτι (που μπορεί να γίνει διπλό)",
+    amenity_beds_kalitea: "Έως 4 επισκέπτες",
     amenity_kitchen: "Κουζίνα",
     amenity_bathroom: "Ιδιωτικό μπάνιο",
     amenity_air_conditioning: "Κλιματισμός",
@@ -358,12 +396,14 @@ const translations = {
     apartment: "Διαμέρισμα",
     apartment_price_polychrono: "Από 70€",
     apartment_price_flogita: "Από 70€",
+    apartment_price_kalitea: "Από 70€",
     apartment_price_ohrid: "Από 50€",
     minimum_stay: "Ελάχιστη διαμονή 7 νυκτών",
     go_to_contact_me: "Επικοινωνήστε μαζί μας",
     map: "Χάρτης",
     check_polychrono: "Δείτε το διαμέρισμα στο Πολύχρονο",
     check_flogita: "Δείτε το διαμέρισμα στα Φλογητά",
+    check_kalitea: "Δείτε το διαμέρισμα στην Καλλιθέα",
     check_ohrid: "Δείτε το διαμέρισμα στην Οχρίδα",
     photo_gallery: "Γκαλερί φωτογραφιών",
     photos_coming_soon: "Οι φωτογραφίες θα προστεθούν σύντομα",
@@ -454,6 +494,32 @@ const APARTMENTS = {
       "https://www.google.com/maps/dir//40.2579665,23.2157239/@40.2579528,23.215694,200m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDYyMi4wIKXMDSoASAFQAw%3D%3D",
   },
   3: {
+    nameKey: "apartment_name_kalitea",
+    descriptionKey: "description_kalitea",
+    descriptionSecondKey: "description_kalitea_second",
+    priceKey: "apartment_price_kalitea",
+    bedKey: "amenity_beds_kalitea",
+    wifiStarlink: false,
+    heroImage: "images/kalitea/kalitea4.jpg",
+    galleryImages: [
+      "images/kalitea/kalitea1.jpg",
+      "images/kalitea/kalitea2.jpg",
+      "images/kalitea/kalitea3.jpg",
+      "images/kalitea/kalitea4.jpg",
+      "images/kalitea/kalitea5.jpg",
+      "images/kalitea/kalitea6.jpg",
+      "images/kalitea/kalitea7.jpg",
+      "images/kalitea/kalitea8.jpg",
+      "images/kalitea/kalitea9.jpg",
+      "images/kalitea/kalitea10.jpg",
+      "images/kalitea/kalitea11.jpg",
+      "images/kalitea/kalitea12.jpg",
+      "images/kalitea/kalitea13.jpg",
+    ],
+    mapUrl:
+      "https://www.google.com/maps/dir//Ellispontou+8,+Kallithea+630+77,+Greece/@40.0185029,23.5259834,187m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x14a62a48ad35f425:0xd77ea50808226849!2m2!1d23.4478673!2d40.0733042?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D",
+  },
+  4: {
     nameKey: "apartment_name_ohrid",
     descriptionKey: "description_ohrid",
     descriptionSecondKey: "description_ohrid_second",
@@ -491,6 +557,14 @@ const MAP_LOCATIONS = [
   },
   {
     id: 3,
+    nameKey: "apartment_name_kalitea",
+    lat: 40.07347657992222,
+    lng: 23.447867296676435,
+    mapUrl:
+      "https://www.google.com/maps/dir//Ellispontou+8,+Kallithea+630+77,+Greece/@40.0185029,23.5259834,187m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x14a62a48ad35f425:0xd77ea50808226849!2m2!1d23.4478673!2d40.0733042?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D",
+  },
+  {
+    id: 4,
     nameKey: "apartment_name_ohrid",
     lat: 41.1177006,
     lng: 20.803087,
